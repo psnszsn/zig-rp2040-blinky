@@ -1,0 +1,15 @@
+.{
+    .name = "blinky",
+    .version = "0.0.0",
+    .paths = .{""},
+    .dependencies = .{
+        .uf2 = .{
+            .url = "https://github.com/ZigEmbeddedGroup/uf2/archive/206c027ee4c5eaf409b7bcbce86339c97b4926a6.tar.gz",
+            .hash = "122041fef1143717c2da02786654e50fa553b0a3ae5dda24cb717f5816adf71f6092",
+        },
+        .rp2040 = .{
+            .url = "https://github.com/ZigEmbeddedGroup/raspberrypi-rp2040/archive/6f201f7f4c4d3223eb1e30658a97c6776c82926a.tar.gz",
+            .hash = "122006af6079c1c26a0c85b64c75bd94ea08dbd59d7661e33792bbc9c2e9b08ef39b",
+        },
+    },
+}
